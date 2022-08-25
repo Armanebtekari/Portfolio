@@ -24,6 +24,33 @@ nav a {
     padding: 20px;
     font-family: 'Rubik', sans-serif; 
     font-weight: 400;
+    position: relative;
+}
+
+.nav-links a:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 0%;
+    background: #184fee;
+    border-radius: 12px;
+    transition: all 0.4s ease;
+}
+.nav-links a:hover:before {
+    width: 100%;
+}
+.nav-links a:before {
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s ease;
+}
+
+.nav-links a:hover:before {
+    transform: scaleX(1);
+    transform-origin: left;
 }
 
 .button-div {

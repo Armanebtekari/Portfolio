@@ -26,17 +26,19 @@
                 <meta http-equiv="X-UA-Compatible" content="IE=edge">
                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
                     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+                    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
                 <link rel="stylesheet" href="home.css">
             <title>Iman</title> 
         </head>
     <body>
         <!-- Welcome -->
-        <section>
-            <div class="welcome">
+        <div>
+            <img src="/image/mario-klassen-t8yimzM2bEY-unsplash.jpg" class="image-welcome" data-aos="fade-left">
+            <div class="welcome" data-aos="fade-right">
                 <p class="comment">speed up <br> commulications</p>
                     <h1 class="h1">Hi I'm Iman <br> Salamati</h1><div class="cyrcle"></div>
                         <p class="small-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> nulla! Expedita sint, aut maxime incidunt</p>
-                    <div>
+                        <div>
                         <button class="button-welcome">Hire Me</button> <a class="play-btn" href="#resume"><i class='bx bx-play bx-md'></i></a>
                     </div>
                 <div class="icons">
@@ -46,38 +48,59 @@
                     <a href="#"><i class='bx bxl-twitter bx-sm'></i></a>
                 </div>
             </div>
-        </section>
+        </div>
         <!-- About -->
-        <section id="about" class="about-page">
+        <div id="about" class="about-page">
             <div class="about">
-                    <img src="/image/about.image.png" class="image-about">
-                <div class="content">
+                    <img src="/image/about.image.png" class="image-about" data-aos="fade-right">
+                <div class="content" data-aos="fade-left">
                     <h4 class="about-h4">About Me</h4>
                         <h1 class="about-h1">Do Some Awesome <br> Stuff With Me.</h1>
                     <p class="about-p">Lorem ipsum, dolor sit amet consectetur adipisicing <br>Lorem ipsum, dolor sit amet consectetur adipisicing <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Dolore nemo tenetur doloremque perferendis eveniet totam<br> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
             </div>
-        </section>
+        </div>
         <!-- Cards -->
         <section>
             <div class="container">
-                <div class="card">
+                <div class="card" data-aos="zoom-out">
                     <h1 class="number">#01</h1>
                         <h1 class="title">certificait</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptate quibusdam laboriosam Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptate quibusdam laboriosam</p>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-out">
                     <h1 class="number">#02</h1>
                         <h1 class="title">Job</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptate quibusdam laboriosam Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptate quibusdam laboriosam</p>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-out">
                     <h1 class="number">#03</h1>
                     <h1 class="title">My Skills</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptate quibusdam laboriosam Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptate quibusdam laboriosam</p>
                 </div>
             </div>
         </section>
+        <!-- Resume -->
+        <div id="resume" class="all-resume">
+            <div class="resume">
+                <div class="content-resume">
+                    <h1 data-aos="fade-right">Download My Resume</h1>
+                        <p data-aos="fade-right">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus illo repellat sed delectus autem suscipit, a quod amet libero reiciendis cumque hic maxime magni eius mollitia doloribus ratione. Laboriosam, similique!</p>
+                        <img src="/image/about.image.png" data-aos="fade-left">
+                        <div class="container2" data-aos="fade-right">
+                        <a href="" class="button dark">
+                            <ul>
+                                <li>Download</li>
+                                    <li>Downloading</li>
+                                <li>Downloaded</li>
+                            </ul>
+                            <div>
+                                <svg viewBox="0 0 24 24"></svg>
+                            </div>
+                        </a>
+                </div>
+            </div>
+        </div>
         <!-- Footer -->
             <main></main>
         <footer>
@@ -122,7 +145,10 @@
                 </div>
             </div>
         </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
+            AOS.init();
+
             function openNav() {
                 document.getElementById("myNav").style.width = "100%"
             }
