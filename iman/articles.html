@@ -1,0 +1,98 @@
+<html>
+    <header>
+        <nav class="nav"  id="home">
+            <img src="/image/iman-logo.png" class="logo">
+                <ul class="nav-links">
+                    <a href="/home.html">Home</a>
+                        <a href="/home.html">About</a>
+                        <a href="/home.html">Resume</a>
+                    <a href="/articles.html">Articles</a>
+                </ul>
+                    <button class="button-div">Contact us</button>
+                <div class="menu" id='myNav'>
+                        <a href=""class='closebtn' onclick="closeNav()"><img src="image/close.svg" /></a>
+                    <div class="page-menu">
+                        <a href="#home" onclick="closeNav()" data-item='Home' >Home</a>
+                            <a href="#about" onclick="closeNav()" data-item='About' >About</a>
+                            <a href="#resume" onclick="closeNav()" data-item='Resume' >Resume</a>
+                        <a href="#articles" onclick="closeNav()" data-item='Articles' >Articles</a>
+                    </div>
+                </div>
+            <a href="#" class='menu-link' onclick="openNav()"><img src="image/menu.png" /></a>
+        </nav>
+    </header>
+        <head>
+            <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+                <link rel="stylesheet" href="articles.css">
+            <title>Articles</title>
+        </head>
+    <body>
+        <div class="container">
+            <div class="welcome">
+                <h1>Articles</h1>
+            </div>
+            <div class="link">
+                <li></li><a href="#">about1</a>
+                    <li></li><a href="#">about2</a>
+                <li></li><a href="#">about3</a>
+            </div>
+        </div>
+        <!-- Footer -->
+        <main></main>
+        <footer>
+            <div class="container-1">
+                <div class="content_footer">
+                        <!-- link footer -->
+                    <!-- icon footer -->
+                    <div class="service_area">
+                        <img src="/image/iman-logo.png" class="logo-footer">
+                        <ul class="service_header">
+                            <li class="service_name">Navigation</li>
+                                <li><a href="#">Home</a></li>
+                                    <li><a href="#about">About</a></li>
+                                <li><a href="#resume">Resume</a></li>
+                            <li><a href="/articles.html">Articles</a></li>
+                        </ul>
+                        <ul class="service_header">
+                            <li class="service_name">Industries</li>
+                                <li><a href="#">finance</a></li>
+                                    <li><a href="#">poblice sector</a></li>
+                                <li><a href="#">smart office</a></li>
+                            <li><a href="#">retail</a></li>
+                        </ul>
+                        <div class="service_header">
+                            <li class="service_name">Contact</li>
+                            <div class="social_media">
+                                <a href="#"><i class='bx bxl-facebook'></i></a>
+                                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                                <a href="#"><i class='bx bxl-instagram'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <!-- text and link footer -->
+                <hr>
+                <div class="footer_bottom">
+                    <div class="copy_right">
+                            <a href=""><i class='bx bxs-copyright'></i></a>
+                        <span>coding by arman and kian</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script>
+            function openNav() {
+                document.getElementById("myNav").style.width = "100%"
+            }
+
+            function closeNav() {
+                document.getElementById("myNav").style.width = "0%"
+            }
+        </script>
+    
+    </body>
+</html>
