@@ -1,10 +1,8 @@
 # Portfolio
 
-<a href="url" align="center"><img src="https://user-images.githubusercontent.com/93611871/186754214-f643881b-a1b4-4a2b-a46e-39f346d2f7fc.png" style="border-radius: 50%" ></a>
+<img src="https://user-images.githubusercontent.com/93611871/186754214-f643881b-a1b4-4a2b-a46e-39f346d2f7fc.png">
 
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
