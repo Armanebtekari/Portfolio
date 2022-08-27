@@ -13,4 +13,4 @@ git clone https://github.com/KianEbtekari0/pycourse.git
 
 Codding by KianEbtekari0 and ArmanEbtekari ❤
 
-If you like our project, please star🌟
+If you like our project, please star
